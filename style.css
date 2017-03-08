@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  color: #DD5555;
+  color: #02B875;
   font-size: 40px;
 }
 
@@ -65,9 +65,31 @@ a:hover {
 
 #img-body {
   width: 100px;
-  height 100px;
+  height: 130px;
 }
 
 .img-rounded {
   border-radius: 5%;
+}
+
+.btn-green {
+  background-color: #02B875;
+  color: white;
+  font-weight: 200;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+#sidebar a {
+background-color: #A6A8AB;
+position: fixed;
+left: 0;
+top: 0;
+bottom: 0;
+width: 120px;
+text-align: center;
+}
+
+#page-content {
+  margin-left: 300px;
 }
